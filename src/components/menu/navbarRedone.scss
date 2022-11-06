@@ -1,0 +1,51 @@
+@import '../../global.scss';
+.appBar{
+    overflow: hidden;
+    min-height: 10px !important;
+    width: 100%;
+}
+.logo {
+    padding-top: .6rem;
+}
+.MuiAppBar-root{
+    overflow: hidden;
+    min-height: 10px !important;
+    width: 100%;
+}
+.playerContainer{
+    align-items:'center';
+    padding-top:.5rem;
+}
+Player{
+    font-size: large;
+}
+.button:hover{
+    outline:rgb(0, 0, 0);
+    color: rgb(118, 10, 33) !important;
+    outline: rgb(118, 10, 33);
+    outline-color: rgb(118, 10, 33) !important ;
+    // background-color: rgb(118, 10, 33) !important;
+}
+
+.button{
+    color: rgb(0, 0, 0) !important;
+    
+}
+
+
+.boxContainer{
+    color: rgb(118, 10, 33) !important;
+    fill: rgb(118, 10, 33) !important;
+
+    .icon{
+        font-size: 2rem !important;
+        color: rgb(118, 10, 33) !important;
+    }
+
+    .icon:hover{
+        color: $secondary;
+    }
+}
+
+
+

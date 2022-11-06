@@ -1,0 +1,49 @@
+@import './global.scss';
+
+.app{
+    height: 100vh;
+    background-color: #ce2040;
+     
+    .navbar{
+        z-index: 100;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    //navbar and section fit together
+    .sections{
+        width: 100%;
+        height: calc(100vh - 68px) ;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        scroll-behavior: smooth;
+        // scroll-snap-type: y mandatory;
+        scrollbar-width: none;//firefox
+        &::-webkit-scrollbar {
+            display:none;
+
+        
+
+        }
+
+        @include mobile{
+            .work{
+                height: 220vh !important;
+            }
+        }
+
+
+    
+
+        //component widths
+        > *{
+            width: 100vw;
+            height: calc(100vh - 68px) ;
+            scroll-snap-align: start;
+
+
+        }
+
+    }
+}
+
