@@ -1,0 +1,13 @@
+@import '../../../global.scss';
+.button:hover{
+    outline:rgb(0, 0, 0);
+    color: rgb(118, 10, 33) !important;
+    outline: rgb(118, 10, 33);
+    outline-color: rgb(118, 10, 33) !important ;
+    // background-color: rgb(118, 10, 33) !important;
+}
+
+.button{
+    color: rgb(0, 0, 0) !important;
+    
+}

@@ -1,9 +1,9 @@
-import ResponsiveAppBar from './components/navbarRedone/navbarRedone.jsx'
+import ResponsiveAppBar from './components/menu/navbarRedone.jsx'
 
-import Welcome from './components/welcome/welcome.jsx'
-import Portfolio from './components/portfolio/portfolio.jsx'
-import Work from './components/work/work.jsx'
-import Footer from './components/footer/footer.jsx'
+import Welcome from './components/game/welcome.jsx'
+import Portfolio from './components/explanation/portfolio.jsx'
+import Work from './components/team/work.jsx'
+
 import './app.scss'
 import {useState} from 'react'
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       {/* <Navbar menuState={menuState} setMenuState={setMenuState} /> */}
-      <ResponsiveAppBar className='navbar'></ResponsiveAppBar>
+      <ResponsiveAppBar url='./PhysicsHackathon.mp3' className='navbar'></ResponsiveAppBar>
 
       <div className="sections">
       <Welcome/>
